@@ -57,3 +57,56 @@ body {
     }
   }
 }
+
+
+// #employees th {
+//   border: 1px solid black;
+// }
+
+// th {
+//   display: inline;
+  
+// }
+
+// th {
+//   background-color: rgb(220, 220, 220);
+// }
+
+// tr:nth-child(odd) {
+//   background-color: rgb(238, 238, 238);
+// }
+// tr:nth-child(even) {
+//   background-color: rgb(245, 245, 245);
+// }
+
+// thead {
+//   align-items: center;
+//   margin: 50px;
+// }
+
+// th {
+//   margin: 50px;
+//   justify-content: space-around;
+// }
+
+
+  table {
+    width: 100%;
+
+  th, td {
+    padding: 10px;
+  }
+
+  th {
+    background-color: rgb(220, 220, 220);
+  }
+  
+  tr {
+    &:nth-child(odd) {
+      background-color: rgb(238, 238, 238);
+
+    }&:nth-child(even) {
+      background-color: rgb(245, 245, 245);
+    }
+  }
+}
